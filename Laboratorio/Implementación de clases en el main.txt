@@ -1,0 +1,147 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+#define TAM 20
+#include "Combustible.h"
+#include "Motor.h"
+#include "Automovil.h"
+
+struct Resultado{
+    Motor motor;
+    bool encontrado=false;
+};
+
+Motor motores[TAM];
+Automovil automoviles[TAM];
+int contador_autos      =0;
+int contador_motores    =0;
+
+
+
+Resultado buscarMotor(string marca_modelo){
+    Resultado r;
+    for(int i=0;i<contador_motores;i++){
+        string aux = motores[i].getMarca();
+        aux+="-";
+        aux+=motores[i].getModelo();
+        if(aux==marca_modelo){
+            r.motor = motores[i];
+            r.encontrado=true;
+            return r;
+        }
+    }
+    return r;
+}
+
+void insertar_automovil(){
+
+    string mar,mod,col,marca_modelo;
+    char opc;
+    Resultado r;
+    cout << "\nDigite la marca : ";
+    cin >> mar;
+    cout << "Digite el modelo : ";
+    cin >> mod;
+    cout << "Digite el color : ";
+    cin >> col;
+    do{
+        cout << "Digite el marca y modelo del motor Ej(marca-modelo) : ";
+        cin >> marca_modelo;
+        r = buscarMotor(marca_modelo);
+        if(r.encontrado==true){
+            cout << "Se encontro el motor y se agrego al automovil\n";
+            automoviles[contador_autos] = Automovil(mar,mod,col,r.motor);
+            contador_autos++;
+        }else{
+            cout << "\nNo se encontro un motor con esa marca y modelo, desea buscar otro (s/n) ? : ";
+            cin >> opc;
+        }
+    }while(opc!='n' && r.encontrado!=true);
+}
+
+void insertarMotor(){
+    string mar,mod;
+    int opc,caballos;
+    Combustible combustible;
+    cout << "\nDigite la marca : ";
+    cin >> mar;
+    cout << "Digite el modelo : ";
+    cin >> mod;
+    cout << "Digita los caballos de fuerza : ";
+    cin >> caballos;
+
+    cout << "Selecciona el tipo de combustible : "<<endl;
+    cout << "1.....electrico"<<endl;
+    cout << "2.....gasolina"<<endl;
+    cout << "3.....diesel"<<endl;
+    cout << "4.....etanol"<<endl;
+    cout << "5.....hibrido"<<endl;
+    cin >> opc;
+    switch(opc){
+    case 1:
+        combustible = electrico;
+        break;
+    case 2:
+        combustible = gasolina;
+        break;
+    case 3:
+        combustible = diesel;
+        break;
+    case 4:
+        combustible = etanol;
+        break;
+    case 5:
+        combustible = hibrido;
+        break;
+    }
+    motores[contador_motores]=Motor(mar,mod,combustible,caballos);
+    contador_motores++;
+    cout << "\nNuevo motor insertado \n";
+}
+
+void mostrarAutos(){
+    for(int i=0;i< contador_autos;i++){
+        cout << "\nAutomovil : " << (i+1);
+        automoviles[i].mostrarDatos();
+    }
+}
+
+
+void mostrarMotores(){
+    for(int i=0;i< contador_motores;i++){
+        cout << "\nMotor : " << (i+1);
+        motores[i].mostrarDatos();
+    }
+}
+
+int main()
+{
+    int opc;
+    cout << "Fabricacion de automoviles" << endl;
+    do{
+        cout << "Selecciona una opcion "<<endl;
+        cout << "1........Nuevo automovil  - insertados : "<< contador_autos    <<endl;
+        cout << "2........Nuevo motor      - insertados : "<< contador_motores  <<endl;
+        cout << "3........Mostrar los automoviles fabricados"<<endl;
+        cout << "4........Mostrar los motores fabricados"<<endl;
+        cout << "5........Salir \n: ";
+        cin >> opc;
+        switch(opc){
+        case 1:
+            insertar_automovil();
+            break;
+        case 2:
+            insertarMotor();
+            break;
+        case 3:
+            mostrarAutos();
+            break;
+        case 4:
+            mostrarMotores();
+            break;
+        }
+    system("pause");
+    system("cls");
+    }while(opc!=5);
+    return 0;
+}

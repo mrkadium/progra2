@@ -1,0 +1,35 @@
+﻿Herencia:
+	puede haber herencia privada y herencia pública.
+	
+
+Herencia simple:
+
+Herencia múltiple:
+
+Flecha vacía: relación de herencia
+
+protected: puede verse fuera de la clase, pero sólo en una relación de herencia
+
+#include "Persona.h"
+class Estudiante : Persona{ ///hace referencia a una herencia
+
+class Estudiante : * Persona{ ///Si se omite el *(public o private) entonces por defecto es una herencia private, y no se puede acceder a los  miembros públicos
+class Estudiante : public Persona{ //si se agrega el "public", entonces los miembros de la clase base o padre son accesibles desde la clase derivada.
+
+Tarea1: completar el programa con listas separadas
+Tarea2: dar solución al programa main con vector polimórfico (se permite incorporar métodos adicionales)
+Tarea3: establecer las diferecias entre casteo estático (static_cast) y dinámico(dynamic_cast)
+Tarea4: manejar las listas separadas
+Tarea5: manejar con vector polimórfico
+
+Estudiante(string n, string a) : Persona(n, a){
+	this->Nota1;
+}
+
+Estudiante *est = new Estudiante();
+
+vector polimórfico: aquel que se declara con la clase base, y que puede usar las clases derivadas
+
+castear (casting): conversión de tipos de datos
+
+Estudiante *e1 = static_cast<Estudiante*>(lst[1]);

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1498155181 source:c:\users\soldier4\documents\proyectos de codeblocks\programación ii\examen final - mario adalberto rivera olivo\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Estudiante.h"
+	"Materia.h"
+	"Inscripcion.h"
+
+1498078717 c:\users\soldier4\documents\proyectos de codeblocks\programación ii\examen final - mario adalberto rivera olivo\estudiante.h
+	<string.h>
+
+1498078977 c:\users\soldier4\documents\proyectos de codeblocks\programación ii\examen final - mario adalberto rivera olivo\materia.h
+
+1498081402 c:\users\soldier4\documents\proyectos de codeblocks\programación ii\examen final - mario adalberto rivera olivo\inscripcion.h
+

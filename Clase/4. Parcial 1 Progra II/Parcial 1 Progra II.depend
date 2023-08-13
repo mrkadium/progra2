@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1489159344 source:c:\users\pc-25\documents\nueva carpeta\parcial 1 progra ii\cuenta.cpp
+	"Cuenta.h"
+	"string.h"
+
+1489159295 c:\users\pc-25\documents\nueva carpeta\parcial 1 progra ii\cuenta.h
+	"Fecha.h"
+
+1489157950 c:\users\pc-25\documents\nueva carpeta\parcial 1 progra ii\fecha.h
+	<iostream>
+
+1489157950 source:c:\users\pc-25\documents\nueva carpeta\parcial 1 progra ii\fecha.cpp
+	"Fecha.h"
+

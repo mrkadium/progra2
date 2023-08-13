@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1489442206 source:f:\carrera\2017\ciclo 1 - 2017\lab. progra ii\guia 4\main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"Producto.h"
+	"Factura.h"
+	"Det_Factura.h"
+
+1489424172 f:\carrera\2017\ciclo 1 - 2017\lab. progra ii\guia 4\producto.h
+
+1489440952 f:\carrera\2017\ciclo 1 - 2017\lab. progra ii\guia 4\factura.h
+	"Det_Factura.h"
+
+1489424564 f:\carrera\2017\ciclo 1 - 2017\lab. progra ii\guia 4\det_factura.h
+	"Producto.h"
+
+1489454144 source:c:\users\usuario\desktop\guia 4\main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"Producto.h"
+	"Factura.h"
+	"Det_Factura.h"
+
+1489424172 c:\users\usuario\desktop\guia 4\producto.h
+
+1489454174 c:\users\usuario\desktop\guia 4\factura.h
+	"Det_Factura.h"
+
+1489424564 c:\users\usuario\desktop\guia 4\det_factura.h
+	"Producto.h"
+

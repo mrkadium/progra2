@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1487628271 source:c:\users\soldier4\documents\proyectos de codeblocks\teléfono\main.cpp
+	<iostream>
+	"Telefono.h"
+
+1487627898 c:\users\soldier4\documents\proyectos de codeblocks\teléfono\telefono.h
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1518201859 source:c:\users\soldier4\documents\computación\programación ii\clase\7. teléfono\main.cpp
+	<iostream>
+	"Telefono.h"
+
+1518202591 c:\users\soldier4\documents\computación\programación ii\clase\7. teléfono\telefono.h
+	<cstdlib>
+	<iostream>
+	<fstream>
+

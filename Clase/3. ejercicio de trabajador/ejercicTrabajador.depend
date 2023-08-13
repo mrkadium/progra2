@@ -1,0 +1,139 @@
+# depslib dependency file v1.0
+1488557740 source:c:\users\pc-41\desktop\ejercictrabajador\fecha.cpp
+	"Fecha.h"
+
+1488557789 c:\users\pc-41\desktop\ejercictrabajador\fecha.h
+	<iostream>
+
+1488561483 source:c:\users\pc-41\desktop\ejercictrabajador\trabajador.cpp
+	"Trabajador.h"
+
+1488557740 c:\users\pc-41\desktop\ejercictrabajador\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488561483 source:c:\users\pc-41\desktop\ejercictrabajador\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Trabajador.h"
+
+1488557742 source:c:\users\sandoval\desktop\ejercictrabajador\fecha.cpp
+	"Fecha.h"
+
+1488557790 c:\users\sandoval\desktop\ejercictrabajador\fecha.h
+	<iostream>
+
+1489096341 source:c:\users\sandoval\desktop\ejercictrabajador\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Trabajador.h"
+	"Fecha.h"
+
+1488557742 c:\users\sandoval\desktop\ejercictrabajador\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488561484 source:c:\users\sandoval\desktop\ejercictrabajador\trabajador.cpp
+	"Trabajador.h"
+
+1488557742 source:c:\users\alexis\desktop\ejercictrabajador\fecha.cpp
+	"Fecha.h"
+
+1488557790 c:\users\alexis\desktop\ejercictrabajador\fecha.h
+	<iostream>
+
+1489096512 source:c:\users\alexis\desktop\ejercictrabajador\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Trabajador.h"
+
+1488557742 c:\users\alexis\desktop\ejercictrabajador\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488561484 source:c:\users\alexis\desktop\ejercictrabajador\trabajador.cpp
+	"Trabajador.h"
+
+1488557742 source:e:\programacion ii\parcial 1\ejercictrabajador\fecha.cpp
+	"Fecha.h"
+
+1488557790 e:\programacion ii\parcial 1\ejercictrabajador\fecha.h
+	<iostream>
+
+1489107147 source:e:\programacion ii\parcial 1\ejercictrabajador\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Trabajador.h"
+	"Fecha.h"
+
+1488557742 e:\programacion ii\parcial 1\ejercictrabajador\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488561484 source:e:\programacion ii\parcial 1\ejercictrabajador\trabajador.cpp
+	"Trabajador.h"
+
+1488557742 source:c:\users\soldier4\downloads\ejercicio de trabajador\fecha.cpp
+	"Fecha.h"
+
+1488557790 c:\users\soldier4\downloads\ejercicio de trabajador\fecha.h
+	<iostream>
+
+1489107148 source:c:\users\soldier4\downloads\ejercicio de trabajador\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Trabajador.h"
+	"Fecha.h"
+
+1488557742 c:\users\soldier4\downloads\ejercicio de trabajador\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488561484 source:c:\users\soldier4\downloads\ejercicio de trabajador\trabajador.cpp
+	"Trabajador.h"
+
+1488557742 source:c:\users\soldier4\documents\proyectos de codeblocks\progra ii\ejercicio de trabajador\fecha.cpp
+	"Fecha.h"
+
+1488557790 c:\users\soldier4\documents\proyectos de codeblocks\progra ii\ejercicio de trabajador\fecha.h
+	<iostream>
+
+1489107148 source:c:\users\soldier4\documents\proyectos de codeblocks\progra ii\ejercicio de trabajador\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Trabajador.h"
+	"Fecha.h"
+
+1488557742 c:\users\soldier4\documents\proyectos de codeblocks\progra ii\ejercicio de trabajador\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488561484 source:c:\users\soldier4\documents\proyectos de codeblocks\progra ii\ejercicio de trabajador\trabajador.cpp
+	"Trabajador.h"
+
+1488557742 source:c:\users\soldier4\documents\proyectos de computación\programación ii\clase\3. ejercicio de trabajador\fecha.cpp
+	"Fecha.h"
+
+1488557790 c:\users\soldier4\documents\proyectos de computación\programación ii\clase\3. ejercicio de trabajador\fecha.h
+	<iostream>
+
+1489107148 source:c:\users\soldier4\documents\proyectos de computación\programación ii\clase\3. ejercicio de trabajador\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Trabajador.h"
+	"Fecha.h"
+
+1488557742 c:\users\soldier4\documents\proyectos de computación\programación ii\clase\3. ejercicio de trabajador\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488561484 source:c:\users\soldier4\documents\proyectos de computación\programación ii\clase\3. ejercicio de trabajador\trabajador.cpp
+	"Trabajador.h"
+

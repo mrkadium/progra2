@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1487348667 source:c:\users\pc-27\documents\clase4\main.cpp
+	<iostream>
+	"Persona.h"
+
+1487345814 c:\users\pc-27\documents\clase4\persona.h
+	"Fecha.h"
+	<string.h>
+
+1487348302 c:\users\pc-27\documents\clase4\fecha.h
+

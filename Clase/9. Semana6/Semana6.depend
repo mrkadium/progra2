@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1488554806 source:c:\programacionii\semana6\main.cpp
+	<iostream>
+	"Trabajador.h"
+
+1488552008 c:\programacionii\semana6\persona.h
+	<string.h>
+
+1488552012 source:c:\programacionii\semana6\persona.cpp
+	"Persona.h"
+
+1488553317 source:c:\programacionii\semana6\fecha.cpp
+	"Fecha.h"
+
+1488555284 c:\programacionii\semana6\fecha.h
+	<iostream>
+
+1488555620 c:\programacionii\semana6\trabajador.h
+	<string.h>
+	"Fecha.h"
+
+1488555620 source:c:\programacionii\semana6\trabajador.cpp
+	"Trabajador.h"
+

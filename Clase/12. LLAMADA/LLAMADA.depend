@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1487437007 source:c:\users\hp\desktop\programacion ii\llamada\main.cpp
+	<iostream>
+
+1487641260 source:c:\users\soldier4\downloads\llamada\main.cpp
+	<iostream>
+	"TELEFONO.h"
+
+1487936810 c:\users\soldier4\downloads\llamada\telefono.h
+	<string.h>
+

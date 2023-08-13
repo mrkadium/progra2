@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1488216764 source:c:\users\pc-34\documents\nueva carpeta\guia numero 3\main.cpp
+	<iostream>
+	<string.h>
+	"Empleado.h"
+
+1488217024 c:\users\pc-34\documents\nueva carpeta\guia numero 3\empleado.h
+

@@ -1,0 +1,211 @@
+class Cuenta{
+private:
+int numeroCuenta;
+char nomCliente[TAM];
+Fecha fechaApertura;
+float saldo;
+
+public:
+Cuenta(int nc, char n[]9{
+numeroCuenta = nc;
+strcpy(nomCliente = n);
+this->saldo = 0;
+}
+void setFechaAperutra( Fecha f){
+this-> fechaApertura = f;}
+Fecha getFechaAperutra(){
+return fechaAperutra;
+}
+int getNumeroCuenta(){reurn numeroCuenta}
+void hacerAbonos(float a){
+this->saldo+=a;
+}
+int hacerRetiro(){
+this->saldo-=r;
+}
+void mostrarNombreClienta(){
+cout << this->nomcliente
+
+
+
+main
+#
+
+int menu(){
+int op;
+menu deopciones
+1. agregar cuenta
+2. hacer abonos
+3. hacer retiros
+4. mostrar lista
+5. salir
+digite la opcion
+cin op
+
+int Buscar(Cuenta ls[], int nc, int lon){
+int pos=-1; //no está en la lista
+bool encontrado=false;
+int ocntador =;
+while (contador < lon && !encontrado){
+inf (ls[contador].getnumerocuenta() == nc){
+encontrado true;
+pos = contador;
+}
+else{
+contador++
+}
+}
+return pos;
+}
+
+int main(){
+Cuenta lista[10];
+int correlativo =  0;
+int nc, d, m, a;
+float cant
+char cli;
+int opc
+do{
+system("cls");
+opc = menu();
+switch(opc){
+case 1:{
+if (correlativo < 10){}
+digite nuemro
+cin nc
+digite nombre
+cin cli
+digite el dia de apertura
+cin d;
+digite el mes
+cin m;
+digite el año
+cin año
+Fecha f(d, m ,a)
+Cuenta cta(nc, cli);
+lista[correlativo] = cta;
+correlaitvo++;
+}
+else {lleno
+break;
+case 2:{
+digite numero cuenta
+cin nc
+int p = Buscar(lista, correlativo, nc);
+if(p >=0{
+cuenta encontrada
+digite la cantidad a abonar:
+cin cant
+lista[p].hacerabono(cant);
+}
+else{
+cuenta no se encontró
+}
+}
+break;
+case 3:{
+digite numero cuenta
+cin nc
+int p = Buscar(lista, correlativo, nc);
+if(p >=0{
+cuenta encontrada
+digite la cantidad a retirar:
+cin cant
+lista[p].hacerretiro(cant);
+}
+else{
+cuenta no se encontró
+}
+}
+break;
+case 4:
+if (correlativo == 0)
+lista cuentas esta vacia
+}else{
+cout numero cuenta cuente
+for(int i =0; i<correlativo; i++)
+cuenta ct = lista[i];
+cout ct.genumerocuenta() <<\t\t;
+ct.mostrarnombrecliente();
+cout \t << cl.getSaldo() 
+break;
+case 1:
+break;
+}while (opc != 5);
+
+
+
+
+Cliente -> Cuenta <- Fecha, Abonos
+
+Cliente
+idCliente : int
+Nombres : char[]
+Apellidos: char[]
+
+Cliente(id, char[], char[])
+getId() : int
+mostrarNombre() : void
+mostrarApellido() : void
+
+
+Cuenta
+numeroCuenta : int
+cliente : Clienta
+fechaApertura : Fecha
+lstAbonos : Abonos[]
+ContadorAbonos : int
+saldo : float
+
+Cuenta(id)
+getNumeroCuenta() : int
+setCliente(Cliente) : void
+getcliente() : Cliente
+setFechaApertura(Fecha) : void
+getFechaApertura() : void
+hacerAbonos(Abono) : void
+mostrarAbonos(): void
+getSaldo() : float
+
+
+Fecha
+
+Abonos
+fechaAbono : Fecha
+montoAbono : float
+
+Abonos(Fecha, float)
+setFecha(Fecha) : void
+getFecha() : Fecha
+setMonto(float) : void
+getMonto() : float
+
+
+
+
+
+
+
+
+
+Principios de orientación a objetos
+1. Encapsulamiento:
+	Los métodos(públicos) controlan y manipulan los atributos(privados). Ocultamiento de un objeto, en la clase de referencia se utilizan atributos privados asignados y utilizados por métodos públicos.
+
+2. Abstracción:
+	Crear un diagrama de clases a partir de un enunciado. Sólo se asegura respetar la salida, sin importar el proceso.
+
+3. Herencia:
+	Aquello en lo que podemos echar mano de una clase a partir de otra. Que utilice una clase todos los recursos de una clase.
+
+4. Polimorfismo:
+	Permite a un método o programa comportarse de distintas maneras. Para ésto se utiliza la sobrecarga o la sobreescritura de métodos.
+
+Programación estructurada (funciones)
+Programación orientada a objetos (clases)
+
+Tipos de datos primitivos: int, char, bool, float, double
+Tipos de datos abstractos: los que vienen de una clase.
+
+
+\0 : se agrega al final de cada cadena de caracteres

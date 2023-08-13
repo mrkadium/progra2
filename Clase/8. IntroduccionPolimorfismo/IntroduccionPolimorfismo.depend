@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1490975041 source:c:\programacionii\introduccionpolimorfismo\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"Cuenta.h"
+
+1490974743 c:\programacionii\introduccionpolimorfismo\cuenta.h
+	"Fecha.h"
+	"Cliente.h"
+	"Abonos.h"
+
+1490970624 c:\programacionii\introduccionpolimorfismo\fecha.h
+	<string.h>
+
+1490970530 c:\programacionii\introduccionpolimorfismo\cliente.h
+	<string.h>
+
+1490971487 c:\programacionii\introduccionpolimorfismo\abonos.h
+	"Fecha.h"
+
+1490975042 source:c:\users\soldier4\documents\proyectos de codeblocks\programación ii\introduccionpolimorfismo\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"Cuenta.h"
+
+1490974744 c:\users\soldier4\documents\proyectos de codeblocks\programación ii\introduccionpolimorfismo\cuenta.h
+	"Fecha.h"
+	"Cliente.h"
+	"Abonos.h"
+
+1498014799 c:\users\soldier4\documents\proyectos de codeblocks\programación ii\introduccionpolimorfismo\fecha.h
+	<string.h>
+
+1490970530 c:\users\soldier4\documents\proyectos de codeblocks\programación ii\introduccionpolimorfismo\cliente.h
+	<string.h>
+
+1490971488 c:\users\soldier4\documents\proyectos de codeblocks\programación ii\introduccionpolimorfismo\abonos.h
+	"Fecha.h"
+

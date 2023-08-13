@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1497826948 source:c:\users\alexis ocotan\desktop\deberes\code block\inscripciones\main.cpp
+	<iostream>
+	<cstdlib>
+	"Estudiante.h"
+	"Materia.h"
+	"Inscripcion.h"
+
+1497729931 c:\users\alexis ocotan\desktop\deberes\code block\inscripciones\estudiante.h
+
+1497730510 c:\users\alexis ocotan\desktop\deberes\code block\inscripciones\materia.h
+
+1497736476 c:\users\alexis ocotan\desktop\deberes\code block\inscripciones\inscripcion.h
+	"Materia.h"
+	"Estudiante.h"
+
+1498004363 source:c:\users\alexis ocotan\desktop\deberes\code block\inscripciones (con modificaciones)\main.cpp
+	<iostream>
+	<cstdlib>
+	"Estudiante.h"
+	"Materia.h"
+	"Inscripcion.h"
+
+1497729931 c:\users\alexis ocotan\desktop\deberes\code block\inscripciones (con modificaciones)\estudiante.h
+
+1497730510 c:\users\alexis ocotan\desktop\deberes\code block\inscripciones (con modificaciones)\materia.h
+
+1497736476 c:\users\alexis ocotan\desktop\deberes\code block\inscripciones (con modificaciones)\inscripcion.h
+	"Materia.h"
+	"Estudiante.h"
+
+1498065247 source:c:\users\gerard\downloads\inscripciones (con modificacioness)\main.cpp
+	<iostream>
+	<cstdlib>
+	"Estudiante.h"
+	"Materia.h"
+	"Inscripcion.h"
+
+1497729932 c:\users\gerard\downloads\inscripciones (con modificacioness)\estudiante.h
+
+1497730512 c:\users\gerard\downloads\inscripciones (con modificacioness)\materia.h
+
+1498062832 c:\users\gerard\downloads\inscripciones (con modificacioness)\inscripcion.h
+	"Materia.h"
+	"Estudiante.h"
+

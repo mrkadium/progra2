@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="saldo">
+		<size>296,150</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Label</label>
+			<pos>96,88</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Saldo</label>
+			<pos>48,48</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>112,48</pos>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+	</object>
+</wxsmith>

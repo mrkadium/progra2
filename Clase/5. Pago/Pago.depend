@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1488508616 source:c:\users\soldier4\documents\proyectos de codeblocks\pago\main.cpp
+	<iostream>
+	"Total.h"
+
+1488508809 c:\users\soldier4\documents\proyectos de codeblocks\pago\total.h
+	<string.h>
+
